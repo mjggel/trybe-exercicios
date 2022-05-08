@@ -1,22 +1,3 @@
-div:hover {
-    border: 2px solid red;
-}
-div:nth-of-type(1){
-    color: salmon;
-}div:nth-of-type(2){
-    color: firebrick;
-}div:nth-of-type(3){
-    color: aqua;
-    height: 150px;
-}div:nth-of-type(4){
-    color: purple;
-}div:nth-of-type(5){
-    color: goldenrod;
-}
-h3{
-    background-color: beige;
-}
-}
-h3:nth-of-type(odd){
-    font-style: italic;
+div:hover{
+    border: 3px solid black;
 }
