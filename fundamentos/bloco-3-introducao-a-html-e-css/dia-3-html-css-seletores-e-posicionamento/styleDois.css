@@ -13,6 +13,10 @@ div:nth-of-type(1){
 }div:nth-of-type(5){
     color: goldenrod;
 }
-h3:active{
-    color: white;
+h3{
+    background-color: beige;
+}
+}
+h3:nth-of-type(odd){
+    font-style: italic;
 }
