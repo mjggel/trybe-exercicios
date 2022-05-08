@@ -1,3 +1,14 @@
 div:hover {
     border: 2px solid red;
 }
+div:nth-of-type(1){
+    color: salmon;
+}div:nth-of-type(2){
+    color: firebrick;
+}div:nth-of-type(3){
+    color: aqua;
+}div:nth-of-type(4){
+    color: purple;
+}div:nth-of-type(5){
+    color: goldenrod;
+}
