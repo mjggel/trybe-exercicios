@@ -14,3 +14,9 @@ ol li:nth-of-type(odd){
     font-size: 40 px;
     border: 1px solid black;
 }
+li{
+    font-size: 20px;
+}
+li em{
+    font-weight: bold;
+}
