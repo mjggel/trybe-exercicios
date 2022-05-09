@@ -19,3 +19,6 @@ div:nth-of-type(5){
 h3{
     background-color: rgb(128, 104, 108);
 }
+div:nth-of-type(odd){
+    font-style: italic
+}
