@@ -10,3 +10,7 @@ ol li:nth-of-type(odd){
 .titulo{
     color: red;
 }
+.italico{
+    font-size: 40 px;
+    border: 1px solid black;
+}
