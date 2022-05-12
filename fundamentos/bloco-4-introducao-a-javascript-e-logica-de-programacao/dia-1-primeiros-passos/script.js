@@ -24,11 +24,24 @@ let modulo = a % b;
 console.log(modulo);*/
 
 // Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados. 
-const a = 100;
+/*const a = 100;
 const b = 50;
 
 if(a>b){
     console.log("'a' é maior que 'b'")
 }else{
     console.log("'b' é maior que 'a'")
+}*/
+
+// Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
+const n1 = 100;
+const n2 = 50;
+const n3 = 25;
+
+if(n1 > n2 && n1 > n3){
+    console.log("n1 é o maior dos três")
+}else if(n2 > n1 && n2 > n3){
+    console.log("n2 é o maior dos três")
+}else if(n3 > n1 && n3 > n2){
+    console.log("n3 é o maior dos três")
 }
