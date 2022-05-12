@@ -34,7 +34,7 @@ if(a>b){
 }*/
 
 // Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
-const n1 = 100;
+/*const n1 = 100;
 const n2 = 50;
 const n3 = 25;
 
@@ -44,4 +44,16 @@ if(n1 > n2 && n1 > n3){
     console.log("n2 é o maior dos três")
 }else if(n3 > n1 && n3 > n2){
     console.log("n3 é o maior dos três")
+}*/
+
+// Faça um programa que, dado um valor definido numa constante, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
+
+const valor = 0;
+
+if(valor > 0){
+    console.log("positivo")
+}else if(valor<0){
+    console.log("negative")
+}else{
+    console.log("zero")
 }
