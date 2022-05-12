@@ -1,6 +1,6 @@
 // Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b, definidas no começo com os valores que serão operados. Faça programas para:
 
-const a = 50;
+/*const a = 50;
 const b = 25;
 
 // Adição (a + b)
@@ -21,4 +21,14 @@ console.log(divisao);
 
 // Módulo (a % b)
 let modulo = a % b;
-console.log(modulo);    
+console.log(modulo);*/
+
+// Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados. 
+const a = 100;
+const b = 50;
+
+if(a>b){
+    console.log("'a' é maior que 'b'")
+}else{
+    console.log("'b' é maior que 'a'")
+}
