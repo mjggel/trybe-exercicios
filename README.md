@@ -1,4 +1,4 @@
-#Trybe
+# Trybe
 
 Neste repositório há todas as minhas atividades realizades enquanto estudante da Trybe.
 
