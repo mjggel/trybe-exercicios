@@ -82,9 +82,10 @@ if((a+b+c) == 180){
 // Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
 // Exemplo: bishop (bispo) -> diagonals (diagonais)
 
-let peca = "peao";
+let peca = "PeaO";
+const piece = peca.toLowerCase();
 
-switch(peca){
+switch(piece){
     case "bispo":
         console.log("Move-se na diagonal");
         break;
