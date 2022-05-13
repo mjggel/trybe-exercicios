@@ -117,7 +117,7 @@ switch(piece){
 // Porcentagem < 50 -> F
 // O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
 
-const nota = 1501;
+/*const nota = 1501;
 
 if(nota>=90 && nota<100){
     console.log("88% = 'A'");
@@ -133,4 +133,27 @@ if(nota>=90 && nota<100){
     console.log("88% = 'F'");
 }else if(nota>100 || nota<0){
     console.log("Ta errado isso ae!!!!!!!")
+}*/
+
+// 🚀 Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
+// Bonus: use somente um if.
+/*const a = 2;
+const b = 1;
+const c = 3;
+
+if((a||b||c)% 2 == 0){
+    console.log("true")
+}else{
+    console.log("false");
+}*/
+// Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false.
+// Bonus: use somente um if.
+const a = 1;
+const b = 2;
+const c = 3;
+
+if((a||b||c)%2!=0){
+    console.log("true")
+}else{
+    console.log("false")
 }
