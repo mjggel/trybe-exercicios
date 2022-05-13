@@ -64,7 +64,7 @@ if(valor > 0){
 
 // Um ângulo será considerado inválido se não tiver um valor positivo.
 
-const a = 30; 
+/*const a = 30; 
 const b = 90;
 const c = 90;
 
@@ -74,4 +74,35 @@ if((a+b+c) == 180){
     console.log("false")
 }else if((a || b || c) < 0){
     console.log("ERRO!!!!")
+}*/
+
+// Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+// Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
+// Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case).
+// Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
+// Exemplo: bishop (bispo) -> diagonals (diagonais)
+
+let peca = "peao";
+
+switch(peca){
+    case "bispo":
+        console.log("Move-se na diagonal");
+        break;
+    case "peao":
+        console.log("Move-se apenas uma casa em frente. Apenas captura peças na diagonal. Pode mover-se duas casas no primeiro movimento do jogo.");
+        break;
+    case "cavalo":
+        console.log("Seu movimento é em forma de L. Pode pular outras peças em seu caminho.");
+        break;
+    case "rei":
+        console.log("Move-se em todas as direções apenas uma casa por vez");
+        break;
+    case "rainha":
+        console.log("Pode se mover em todas as direções quantas casas desejar.");
+        break;
+    case "torre":
+        console.log("Movimenta-se apenas na vertical e horizontal. Quantas casas desejar.");
+        break;
+    default:
+        console.log("Erro: peça inválida"); 
 }
