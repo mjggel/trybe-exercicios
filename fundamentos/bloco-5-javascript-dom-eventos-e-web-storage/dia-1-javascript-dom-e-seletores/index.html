@@ -85,6 +85,14 @@
           paragraph[index].innerText = paragraph[index].innerText.toUpperCase();
         }
        } upperCase();
+
+       // Exercicio 6
+       function showConsole() {
+        let showConsole = document.getElementsByTagName('p');
+        for (let index = 0; index < showConsole.length; index += 1) {
+          console.log(showConsole[index].innerText);
+          }
+      } showConsole();
     </script>
   </body>
 </html>
