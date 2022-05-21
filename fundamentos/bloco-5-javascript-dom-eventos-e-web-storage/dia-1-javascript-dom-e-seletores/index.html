@@ -77,6 +77,14 @@
          let correctTxt = document.getElementsByTagName('h1') [0];
          correctTxt.innerText = 'Exercício 5.1 - JavaScript'
        } correctH1();
+
+       // Exercicio 5
+       function upperCase() {
+        let paragraph = document.getElementsByTagName('p');
+        for (let index = 0; index < paragraph.length; index += 1) {
+          paragraph[index].innerText = paragraph[index].innerText.toUpperCase();
+        }
+       } upperCase();
     </script>
   </body>
 </html>
