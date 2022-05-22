@@ -44,9 +44,15 @@ section2.appendChild(list);
                 list.appendChild(listaNumbers);
         }
 
-// 🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+//9. 🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+for (let sla = 0; index <= 2; index += 1);
+    let titulos = document.createElement('h3');
+main.appendChild(titulos);
+
 // Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
 // 🚀 Adicione a classe title na tag h1 criada;
+titulo1.className = 'title';
+
 // 🚀 Adicione a classe description nas 3 tags h3 criadas;
 // 🚀 Remova a section criado no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
 // 🚀 Centralize a section criado no passo 6 (aquele que possui a classe right-content). Dica: para centralizar, basta configurar o margin-right: auto da section;
