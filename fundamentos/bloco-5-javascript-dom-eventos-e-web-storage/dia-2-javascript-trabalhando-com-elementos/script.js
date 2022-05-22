@@ -11,9 +11,13 @@ document.body.appendChild(main);
 // 🚀 Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
 let section = document.createElement('section');
     section.className = 'center-content';
-    main.appendChild(section);
-    
+main.appendChild(section);
+
 // 🚀 Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+let paragraph = document.createElement('p');
+    paragraph.innerText = 'algum texto';
+section.appendChild(paragraph);
+
 // 🚀 Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
 // 🚀 Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
 // 🚀 Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image. Esse elemento deve ser filho do section criado no passo 5;
