@@ -7,7 +7,12 @@ document.body.appendChild(titulo1);
 let main = document.createElement('main');
     main.className = 'main-content';
 document.body.appendChild(main);
+
 // 🚀 Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+let section = document.createElement('section');
+    section.className = 'center-content';
+    main.appendChild(section);
+    
 // 🚀 Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
 // 🚀 Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
 // 🚀 Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
