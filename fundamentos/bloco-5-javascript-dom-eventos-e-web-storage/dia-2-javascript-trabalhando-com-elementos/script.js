@@ -34,7 +34,16 @@ let img = document.createElement('img');
     Image.src = 'https://picsum.photos/200'
 section2.appendChild(img);
 
-// 🚀 Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+//8. 🚀 Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+let list = document.createElemente('ul');
+section2.appendChild(list);
+    let numbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+        for (let i in numbers) {
+            let listaNumbers = document.createElement('li');
+                listaNumbers.innerHTML = numbers[i];
+                list.appendChild(listaNumbers);
+        }
+
 // 🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
 // Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
 // 🚀 Adicione a classe title na tag h1 criada;
