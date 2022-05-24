@@ -35,7 +35,7 @@ let img = document.createElement('img');
 section2.appendChild(img);
 
 //8. 🚀 Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
-let list = document.createElemente('ul');
+let list = document.createElement('ul');
 section2.appendChild(list);
     let numbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
         for (let i in numbers) {
@@ -70,3 +70,9 @@ section2.style.marginRight = 'auto';
 section.parentNode.style.backgroundColor = 'yellow';
 
 // 🚀 Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
+
+for (let index = 1; index <= 9; index += 1) {
+    if (listaNumbers[index] === lastChild) {
+        removeChild();  
+    }
+}
