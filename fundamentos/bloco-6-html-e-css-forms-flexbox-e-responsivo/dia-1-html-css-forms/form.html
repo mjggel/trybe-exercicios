@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TrybeTrip</title>
+</head>
+<body>
+    <Header>Header da Pagina</Header>
+    <form action="" method="get">
+        <div class="box">
+            <label for="input_name">Nome:
+                <input type="text" name="" id="input_name" minlength="10" maxlength="40">
+                <br>
+            </label>
+            <br>
+            <label for="input_email">Email:
+                <input type="text" name="" id="input_email" minlength="10" maxlength="50">
+            </label>
+        </div>
+        <div class="box">
+            Destino Preferido:
+            <br>
+            <label for="opt1">
+                <input type="radio" name="destino" id="opt1">Cidade
+            </label>
+            <label for="opt2">
+                <input type="radio" name="destino" id="opt2">Campo
+            </label>
+            <label for="opt3">
+                <input type="radio" name="destino" id="opt3">Praia
+            </label>
+            <label for="opt4">
+                <input type="radio" name="destino" id="opt4">Montanhas
+            </label>
+        </div>
+        <div class="box">
+            <label for="arena-texto">Por que eu deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+                <br>
+                <textarea name="" id="arena-texto" cols="30" rows="5" maxlength="50" placeholder="Digite a resposta:"></textarea>
+            </label>
+        </div>
+        <div class="box">
+            <label for="data">Qual a melhor data para realizar sua viagem?
+                <br>
+                <input type="date" name="vacay_date" id="data">
+            </label>
+        </div>
+        <div class="box">
+            <label for="">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+                <br>
+                <input type="radio" name="trybe_opportunities" id="sim">Sim
+                <input type="radio" name="trybe_opportunities" id="nao">Não
+            </label>
+        </div>
+        <div class="box">
+            <label for="">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+                <br>
+                <input type="radio" name="my_img" id="sim">Sim
+                <input type="radio" name="my_img" id="nao">Não
+            </label>
+        </div>    
+    </form>
+    <button type="submit" id="btn-submit">Enviar</button>
+    <br>
+    <button type="reset">Apagar</button>
+    <script src="script.js"></script>
+</body>
+</html>
